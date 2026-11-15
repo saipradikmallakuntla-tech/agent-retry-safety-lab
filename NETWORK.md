@@ -39,3 +39,33 @@ Illustrative deployment scenarios and reproducible synthetic diagnostics for the
 - [Dated release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/CASE_STUDIES_CYCLE_RELEASE.md)
 
 The hub documentation is fully available in EN/ES/PT; this utility interface remains English-only. Links carry no diagnostic input. This cycle changes only `index.html`, `README.md`, and `NETWORK.md` in this repository; `app.js` and `styles.css` are unchanged. Reference outcomes are synthetic and point-in-time, not an SLA, security certification, browser-conformance proof, or exactly-once guarantee.
+
+## Architecture and diagnostic continuation — 2026-11-15
+
+Three practical checks for the existing engine, not new functionality or production guarantees:
+
+### Ambiguous response loss
+- **Setup:** Compare the same synthetic layered-retry configuration with no key and a stable intent key retained beyond the loss window.
+- **Expected finding:** Inspect effects, duplicates, deduplications, and server-completion order rather than treating a timeout as proof of failure.
+- **Interpretation and limits:** A server mutation may finish after a client timeout. Safety assumes atomic server-side enforcement, not merely a client header.
+
+### Retention and key identity
+- **Setup:** Keep the fixture and seed fixed; shorten key TTL, then compare per-attempt keys with a stable intent key.
+- **Expected finding:** Expired or rotated keys can allow a later request to repeat the side effect; a cache hit does not extend retention.
+- **Interpretation and limits:** The model does not verify provider contracts. Real systems need payload fingerprints, adequate retention, and reconciliation.
+
+### Layer budgets and jitter
+- **Setup:** Count attempts at agent, SDK, and transport layers; compare backoff modes with the same seed and bounded budgets.
+- **Expected finding:** A retry count adds attempts at its layer; nested layers can amplify total requests. Jitter changes scheduling, not intent identity.
+- **Interpretation and limits:** Fixed-bucket counts are not measured RPS. Independent parent deadlines, cancellation, rate limits, and speculative concurrency are not modeled.
+
+### Continue through the owned network
+- [Inspect stream framing](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes)
+- [Inspect browser access and cookies](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/#diagnostic-notes)
+- [Architecture and roadmap — English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/changelog.html#architecture)
+- [Arquitectura y hoja de ruta — Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/changelog.html#architecture)
+- [Arquitetura e roteiro — Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/changelog.html#architecture)
+
+[Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Existing case studies](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/case-studies.html) · [Batch release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK_INTERLINK_BATCH_RELEASE.md)
+
+All six roadmap candidates remain proposals, not launched apps. Links carry no diagnostic inputs. EN/ES/PT parity applies to hub documentation; this utility interface remains English-only. This content-only batch preserves `app.js` and `styles.css`, existing showcases, and historical dated evidence. No third-party repository or Pages/DNS setting is changed.
