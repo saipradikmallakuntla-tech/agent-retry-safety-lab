@@ -107,3 +107,19 @@ Use synthetic or approved sanitized evidence. Review summaries manually: sanitiz
 [Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes) · [CORS & Cookie Doctor](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/#diagnostic-notes)
 
 [Diagnostics cycle release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/DIAGNOSTICS_MATRIX_RELEASE.md). Existing scenarios, case studies, architecture links, engines and styles are preserved. No third-party repository or Pages/DNS setting is changed.
+
+## Batch 22 — Production architecture integration
+
+Keep one synthetic logical intent stable across bounded agent, SDK and transport attempts. Compare key identity, retention and loss/timeout assumptions. An actual backend must coordinate the operation ledger with its side effect; this simulator supplies neither.
+
+Use approved saved framing evidence when completion is unknown, and separate browser access from cookie eligibility. Reconcile actual server outcomes before replay; a timeout is not proof that a mutation failed.
+
+Carry only manually reviewed, synthetic summaries. Omit payloads, personal data, credentials, cookie values and real keys; never encode inputs in navigation URLs. Links transfer no data and provide no automatic sanitizer or shared backend. This utility interface remains English-only.
+
+- [Architecture recipes — English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/architecture-patterns.html#recipe-retry)
+- [Recetas de arquitectura — Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/architecture-patterns.html#recipe-retry)
+- [Receitas de arquitetura — Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/architecture-patterns.html#recipe-retry)
+
+[Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#batch-22-integration) · [CORS & Cookie Doctor](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/#batch-22-integration)
+
+[Batch-22 release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/BATCH_22_CONTENT_RELEASE.md). Prior scenarios and links, analysis engines, styles, and Pages/DNS settings are preserved. No third-party repository is changed.
