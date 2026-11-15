@@ -51,3 +51,10 @@ The referenced Batch 22 and Batch 99 final reports were absent from the captured
 Live destinations, not fresh checks: [Hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Stream](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/) · [CORS](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/).
 
 Keep payloads, personal data, credentials, cookie values, real intent keys and customer captures out of public examples and navigation URLs. Synthetic references are not production benchmarks or endorsements. This documentation provides no monitoring, SLA, compliance/security certification, professional advice, semantic-correctness assurance or exactly-once guarantee. No third-party modification, endorsement or upstream registration is implied.
+
+## Legal, Compliance & Care editorial and promotion package — 2026-11-15
+
+- [Editorial plan: audiences, claims, review gates and four-part calendar](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/LEGAL_COMPLIANCE_CARE_EDITORIAL_PLAN.md)
+- [English, Spanish and Portuguese promotion copy and channel drafts](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/LEGAL_COMPLIANCE_CARE_PROMOTION_COPY.md)
+
+Repository publication is authorized; promotional assets are published for review, not approved for distribution. Human language/domain sign-off remains pending. These are nine non-advisory documentation practices, not nine apps. This utility interface remains English-only. Existing source decks, historical archives and software are unchanged by this package.
