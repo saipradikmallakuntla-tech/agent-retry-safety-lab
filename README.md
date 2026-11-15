@@ -77,3 +77,33 @@ Three practical checks for the existing engine, not new functionality or product
 [Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [Existing case studies](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/case-studies.html) · [Batch release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/NETWORK_INTERLINK_BATCH_RELEASE.md)
 
 All six roadmap candidates remain proposals, not launched apps. Links carry no diagnostic inputs. EN/ES/PT parity applies to hub documentation; this utility interface remains English-only. This content-only batch preserves `app.js` and `styles.css`, existing showcases, and historical dated evidence. No third-party repository or Pages/DNS setting is changed.
+
+## Failure-mode diagnostics and cross-app triage — 2026-11-15
+
+Batch: `zion-diagnostics-matrix-2026-11-15-en-es-pt`.
+
+Use synthetic or approved sanitized evidence. Review summaries manually: sanitization is not automatic. Links carry no diagnostic inputs, uploads, or shared state. Hub guides have full EN/ES/PT coverage; this utility interface remains English-only.
+
+### Response loss needs framing evidence
+
+- **Trigger:** A timeout leaves stream completion unknown or duplicate intent is suspected.
+- **Carry manually:** Synthetic intent label, configured budgets/TTL, modeled attempt/effect counts, and known/unknown completion; never real keys or payloads.
+- **Next action and limits:** Inspect an approved sanitized saved capture, not a new production replay. A terminal flag is structural evidence, not proof of semantic correctness or exactly-once execution.
+- **Continue:** [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes)
+
+### Client failure may hide server success
+
+- **Trigger:** A browser reports failure after a request may have reached the server.
+- **Carry manually:** Synthetic origin/site relationship, credential mode, preflight outcome, and whether sending/completion is known; omit credentials.
+- **Next action and limits:** Separate response access from cookie policy before classifying a retryable failure. Reconcile server state first; never blindly reflect Origin or automatically repeat a mutation.
+- **Continue:** [CORS & Cookie Doctor](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/#diagnostic-notes)
+
+### Matrix languages and reciprocal network
+
+- [Diagnostics matrix — English](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/diagnostics-matrix.html#triage-retry)
+- [Matriz de diagnóstico — Español](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/es/diagnostics-matrix.html#triage-retry)
+- [Matriz de diagnóstico — Português](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/pt/diagnostics-matrix.html#triage-retry)
+
+[Central hub](https://saipradikmallakuntla-tech.github.io/zion-ai-apps-hub/) · [LLM Stream Inspector](https://saipradikmallakuntla-tech.github.io/llm-stream-inspector/#diagnostic-notes) · [CORS & Cookie Doctor](https://saipradikmallakuntla-tech.github.io/cors-cookie-doctor/#diagnostic-notes)
+
+[Diagnostics cycle release evidence](https://github.com/saipradikmallakuntla-tech/zion-ai-apps-hub/blob/main/DIAGNOSTICS_MATRIX_RELEASE.md). Existing scenarios, case studies, architecture links, engines and styles are preserved. No third-party repository or Pages/DNS setting is changed.
